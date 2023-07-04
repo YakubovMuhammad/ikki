@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(./1673658991_pro-dachnikov-com-p-parni-sidya-v-kresle-foto-108.jpg)
+    no-repeat repeat center/cover;
+}
+.navbar {
+  width: 100%;
+  padding: 2% 7% 2% 4%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 26px;
+  color: white;
+  flex: 1;
+}
+.collection {
+  display: flex;
+  gap: 50px;
+}
+
+.collection>li{
+    font-size: 18px;
+}
+
+.item {
+  list-style-type: none;
+  color: white;
+}
+.item:hover {
+  color: #a4c63b;
+  border-bottom: 1px solid #a4c63b;
+}
+
+.paragraf {
+  display: flex;
+  flex-direction: column;
+  padding: 0 60% 0 10%;
+  gap: 20px;
+}
+
+.paragraf > :first-child {
+  color: #a4c63b;
+  font-size: 24px;
+}
+.paragraf > h1 {
+  font-size: 42px;
+  color: white;
+}
+
+.paragraf > :nth-child(3) {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.paragraf > button {
+  width: 170px;
+  height: 45px;
+  border: none;
+  border-radius: 40px;
+  background: #a4c63b;
+  color: #fff;
+  font-size: 16px;
+}
+
+.desc {
+  color: #ccc;
+  font-size: 16px;
+}
+.btn {
+  background: #a4c63b;
+  width: 115px;
+  height: 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.tashqari {
+  width: 100%;
+  background: #a4c63b;
+  padding: 2.5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btr > h3 {
+  font-size: 24px;
+  color: white;
+}
+.btr > h6 {
+  font-size: 16px;
+  color: white;
+  flex: 1;
+}
+.bts {
+  background: #a4c63b;
+  width: 160px;
+  height: 45px;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 40px;
+  font-size: 14px;
+}

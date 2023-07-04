@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(#1e8fff8d, #1e8fff8d),
+    url(./f86112f5a09ea97f6830059ff5d919ca.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1% 7%;
+}
+.navbar > p {
+  color: white;
+  font-size: 27px;
+  flex: 1;
+  font-family: monospace;
+}
+.navbar > p > sup {
+  color: red;
+  font-size: 34rpx;
+}
+.navbar > ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+.navbar > ul > li {
+  color: white;
+  font-size: 16px;
+  padding: 16px 14px;
+}
+.navbar > ul > li:hover {
+  background: #1e8fff8d;
+}
+.home{
+    width: 100%;
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    padding: 0% 30%;
+}
+.home>:nth-child(1){
+    font-size: 45px;
+    font-family: monospace;
+}
+.home>:nth-child(1)>sup{
+    color: red;
+}
+.home>:nth-child(2){
+    font-size: 23px;
+    font-weight: 900;
+}
+.home>:nth-child(3){
+    font-size: 15px;
+    text-align: center;
+}
+.home>button{
+    padding: 10px 15px;
+    background: #1e8fff;
+    border: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.chuchmal{
+    color: white;
+    font-size: 35px;
+    margin-top: 125px;
+}

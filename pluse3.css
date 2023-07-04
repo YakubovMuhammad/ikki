@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.ekran {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: url(./Dollarphotoclub_76998313.jpg) no-repeat repeat center/cover;
+  flex-direction: column;
+}
+.tepa {
+  padding: 0% 15%;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  background: #57ba71;
+  font-size: 15px;
+  color: white;
+  gap: 15px;
+}
+.tepa > a {
+  color: white;
+  margin-top: 7px;
+  
+}
+.tepa>p{
+    margin-top: 7px;
+}
+.sur{
+    flex: 1;
+}
+.orta{
+    padding: 0% 15%;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+.orta>h1{
+    padding: 20px;
+    flex: 1;
+}
+.orta>ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.orta>ul>li{
+    color: black;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.orta>ul>li:hover{
+    color: #57ba71;
+}
+.tagi{
+    width: 100%;
+    padding: 0% 15%;
+    margin-top: 170px;
+    flex-direction: column;
+}
+.tagi>h1{
+    font-size: 47px;
+}
+.tagi>h6{
+    font-size: 15px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn>:nth-child(1){
+    padding: 12px 14px;
+    background: #57ba71;
+    color: white;
+    border: none;
+}
+.btn>:nth-child(2){
+    padding: 12px 14px;
+    background: white;
+    color: black;
+    border: none;
+    margin-left: 5px;
+}
